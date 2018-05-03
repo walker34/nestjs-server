@@ -1,0 +1,44 @@
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+
+# dependencies
+node_modules/
+package-lock.json
+
+# IDE
+/.idea
+/.awcache
+/.vscode
+.sass-cache/
+.versions/
+
+# misc
+.DS_Store
+lerna-debug.log
+npm-debug.log
+yarn-error.log
+/src/common/npm-debug.log
+/src/core/npm-debug.log
+/src/testing/npm-debug.log
+/src/microservices/npm-debug.log
+/src/websockets/npm-debug.log
+
+# example
+/quick-start
+/example_dist
+/example
+
+#dist
+dist/
+
+# tests
+/test
+/coverage
+/.nyc_output
+build/config\.gypi
